@@ -1,0 +1,25 @@
+{
+    "listen_host": "0.0.0.0",
+    "listen_port": 8080,
+    "api_key": "doi-chuoi-bi-mat-nay",
+    "bot_token": "123456:ABC-xxxx",
+    "proxy": "",
+    "cooldown_seconds": 300,
+    "severity_route": {
+        "critical": [
+            "-1001111111111"
+        ],
+        "warning": [
+            "-1002222222222"
+        ],
+        "info": [
+            "-1003333333333"
+        ]
+    },
+    "host_route": {
+        "db01": [
+            "-1004444444444",
+            "-1001111111111"
+        ]
+    }
+}
